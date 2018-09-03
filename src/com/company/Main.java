@@ -12,7 +12,7 @@ public class Main {
         bedrijf.neemInDienst("Kathleen");
         bedrijf.neemVakantie("Karen", 10);
 
-        System.out.println("Onbestaande werknemer vakatie laten nemen");
+        System.out.println("Onbestaande werknemer vakantie laten nemen");
 
         try {
             bedrijf.neemVakantie("Josje", 10);
@@ -43,7 +43,6 @@ public class Main {
         }
     }
 }
-
 
 /*
 Onbestaande werknemer vakantie laten nemen
